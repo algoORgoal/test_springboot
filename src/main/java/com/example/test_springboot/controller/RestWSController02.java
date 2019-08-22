@@ -1,6 +1,6 @@
 package com.example.test_springboot.controller;
 
-import com.example.test_springboot.service.OrganizationService;
+import com.example.test_springboot.Service.OrganizationService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
