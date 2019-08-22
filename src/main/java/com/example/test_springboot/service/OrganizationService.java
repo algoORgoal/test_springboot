@@ -1,4 +1,4 @@
-package com.example.test_springboot.service;
+package com.example.test_springboot.Service;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,13 +7,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class OrganizationService {
-    public Object actionMethod() {
+    public Object actionMethod(){
         Map<String, Object> resultObject = new HashMap<String, Object>();
         resultObject.put("MEMBER_ID", "293029301202");
-        resultObject.put("BYEOL_ID", "0000");
-        resultObject.put("CHI_ID", "1111");
-        resultObject.put("GWAN_ID", "2222");
-        resultObject.put("JI_ID", "3333");
+        resultObject.put("CELLPHONE", "001-3923-6940");
+        resultObject.put("PASSWORD", "!@#ASD123");
         return resultObject;
     }
 }
